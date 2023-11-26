@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+.table
+{
+    margin:20px 0 ;
+    text-align: left;
+    position: relative;
+    border-collapse: collapse; 
+        .tr
+        {
+            .th,.td
+            {
+                cursor:pointer;
+                border: 1px solid #5B5B5B;
+                background: $tabelBg;
+                padding:10px 36px 10px 10px;
+                text-align:left;
+                color: $bgWhite;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 130%;
+        } 
+        .edit
+        {
+            cursor:pointer;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            margin:8px 12px 0 12px;
+        }
+    }
+}

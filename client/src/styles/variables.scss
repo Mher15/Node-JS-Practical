@@ -1,0 +1,23 @@
+@import "./styles.scss";
+
+$bgWhite: #fff;
+$bgDark: #000000;
+$tabelBg:#5b5b5be6;
+
+@mixin formItems {
+    border: 1px solid $bgDark;
+    color: $bgDark;
+    background-color: $bgWhite;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: $bgDark;
+}
+@mixin text {
+    font-weight: 300;
+    color: $bgDark;
+    font-size: 16px;
+    cursor: pointer;
+}

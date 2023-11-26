@@ -1,0 +1,15 @@
+@import "./variables.scss";
+
+.input_section {
+    width: 100%;
+    margin: 8px;
+    .input {
+        @include formItems;
+        &::-webkit-input-placeholder {
+            text-align: center;
+            font-weight: 400;
+            font-size: 18px;
+            color: $bgDark;
+        }
+    }
+}

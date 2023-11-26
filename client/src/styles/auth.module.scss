@@ -1,0 +1,33 @@
+@import "./variables.scss";
+
+.container_fluid {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: $bgWhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card {
+        width: 100%;
+        height: 100%;
+        max-width: 400px;
+        max-height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            font-weight: 300;
+        }
+        .form {
+            margin: 32px 0;
+            width: 100%;
+            max-width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .text {
+            @include text;
+        }
+    }
+}

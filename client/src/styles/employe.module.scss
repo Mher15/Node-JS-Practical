@@ -1,0 +1,81 @@
+@import "./variables.scss";
+
+.title
+{
+    text-align:center;
+}
+.employee_container
+{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+    .card
+    {
+        width:40%;
+        border:1px solid $bgDark;
+        padding:16px 24px;
+        display:flex;
+        flex-direction:column;
+        .item
+        {
+            margin:10px 0 ;
+            cursor:pointer;
+            padding:10px;
+            border:1px solid $bgDark;
+            display:flex;
+            justify-content:space-between;
+            
+            span
+            {
+                color: $bgDark;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    .shopingCard
+    {
+       width:40%;
+        border:1px solid $bgDark;
+        padding:16px 24px;
+        display:flex;
+        flex-direction:column;  
+        justify-content:space-between;
+    .item
+        {
+            margin:10px 0 ;
+            cursor:pointer;
+            padding:10px;
+            border:1px solid $bgDark;
+            display:flex;
+            justify-content:space-between;
+            
+            span
+            {
+                color: $bgDark;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+    .buy_button
+    {
+        display:flex;
+        justify-content:space-between;
+        .total
+        {
+            margin:8px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            border:1px solid $bgDark;
+            padding:10px;
+            max-width:200px;
+            width:100%  
+        }
+    }
+}
